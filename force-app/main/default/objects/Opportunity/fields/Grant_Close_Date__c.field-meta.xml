@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grant_Close_Date__c</fullName>
+    <description>The date the grant ends or &quot;closes&quot;.</description>
+    <inlineHelpText>Leave blank unless you selected &quot;Custom&quot; for the Grant Close Schedule field. Otherwise enter the close date specified by the Investigator.</inlineHelpText>
+    <label>Grant Close Date</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

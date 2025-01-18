@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget_Override__c</fullName>
+    <description>For cases where a grant should not be allocated to its focus area&apos;s budget, this provides the opportunity to override that default focus area budget.</description>
+    <inlineHelpText>For cases where a grant should not be allocated to its focus area&apos;s budget, this provides the opportunity to override that default focus area budget.</inlineHelpText>
+    <label>Budget Override</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Budget_Override</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Biosecurity and Pandemic Preparedness</fullName>
+        <default>false</default>
+        <label>Biosecurity and Pandemic Preparedness</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Catastrophic Risks (GCR)</fullName>
+        <default>false</default>
+        <label>Global Catastrophic Risks (GCR)</label>
+    </customValue>
+    <customValue>
+        <fullName>GCR Capacity Building</fullName>
+        <default>false</default>
+        <label>GCR Capacity Building</label>
+    </customValue>
+    <customValue>
+        <fullName>GCR Cause Prio</fullName>
+        <default>false</default>
+        <label>GCR Cause Prio</label>
+    </customValue>
+    <customValue>
+        <fullName>Potential Risks from Advanced AI</fullName>
+        <default>false</default>
+        <label>Potential Risks from Advanced AI</label>
+    </customValue>
+    <customValue>
+        <fullName>AI Governance and Policy</fullName>
+        <default>false</default>
+        <label>AI Governance and Policy</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical AI Safety</fullName>
+        <default>false</default>
+        <label>Technical AI Safety</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Health and Wellbeing</fullName>
+        <default>false</default>
+        <label>Global Health and Wellbeing</label>
+    </customValue>
+    <customValue>
+        <fullName>EA Community Growth (GHW)</fullName>
+        <default>false</default>
+        <label>EA Community Growth (GHW)</label>
+    </customValue>
+    <customValue>
+        <fullName>Farm Animal Welfare</fullName>
+        <default>false</default>
+        <label>Farm Animal Welfare</label>
+    </customValue>
+    <customValue>
+        <fullName>Forecasting</fullName>
+        <default>false</default>
+        <label>Forecasting</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Aid Policy</fullName>
+        <default>false</default>
+        <label>Global Aid Policy</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Health &amp; Development</fullName>
+        <default>false</default>
+        <label>Global Health &amp; Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Health R&amp;D</fullName>
+        <default>false</default>
+        <label>Global Health R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>GPHP - Environmental</fullName>
+        <default>false</default>
+        <label>GPHP - Environmental</label>
+    </customValue>
+    <customValue>
+        <fullName>GPHP - Behavioral</fullName>
+        <default>false</default>
+        <label>GPHP - Behavioral</label>
+    </customValue>
+    <customValue>
+        <fullName>Scientific Research</fullName>
+        <default>false</default>
+        <label>Scientific Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Immigration Policy</fullName>
+        <default>false</default>
+        <label>Immigration Policy</label>
+    </customValue>
+    <customValue>
+        <fullName>Land Use Reform</fullName>
+        <default>false</default>
+        <label>Land Use Reform</label>
+    </customValue>
+    <customValue>
+        <fullName>Macroeconomic Stabilization Policy</fullName>
+        <default>false</default>
+        <label>Macroeconomic Stabilization Policy</label>
+    </customValue>
+    <customValue>
+        <fullName>Innovation Policy</fullName>
+        <default>false</default>
+        <label>Innovation Policy</label>
+    </customValue>
+    <customValue>
+        <fullName>DEI in EA</fullName>
+        <default>false</default>
+        <label>DEI in EA</label>
+    </customValue>
+    <customValue>
+        <fullName>Other - History of Philanthropy</fullName>
+        <default>false</default>
+        <label>Other - History of Philanthropy</label>
+    </customValue>
+    <customValue>
+        <fullName>Other - Criminal Justice Reform</fullName>
+        <default>false</default>
+        <label>Other - Criminal Justice Reform</label>
+    </customValue>
+    <customValue>
+        <fullName>Other - Effective Altruism</fullName>
+        <default>false</default>
+        <label>Other - Effective Altruism</label>
+    </customValue>
+    <customValue>
+        <fullName>Other - External Investigator Grant</fullName>
+        <default>false</default>
+        <label>Other - External Investigator Grant</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>South Asian Air Quality</fullName>
+        <default>false</default>
+        <label>South Asian Air Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Alzheimer&apos;s (Good Ventures)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Alzheimer&apos;s (Good Ventures)</label>
+    </customValue>
+    <masterLabel>Focus Area</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

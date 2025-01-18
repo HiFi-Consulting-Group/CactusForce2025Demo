@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ajeya&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Ajeya&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Alexander&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Alexander&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Alzheimer&apos;s / Good Ventures</fullName>
+        <default>false</default>
+        <label>Alzheimer&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>CHIP Budget</fullName>
+        <default>false</default>
+        <label>CHIP Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Claire&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Claire&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Emily&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Emily&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>External Investigator - Carl Shulman</fullName>
+        <default>false</default>
+        <label>External Investigator - Carl Shulman</label>
+    </customValue>
+    <customValue>
+        <fullName>External Investigator - Eliezer Yudkowsky</fullName>
+        <default>false</default>
+        <label>External Investigator - Eliezer Yudkowsky</label>
+    </customValue>
+    <customValue>
+        <fullName>External Investigator - Toby Ord</fullName>
+        <default>false</default>
+        <label>External Investigator - Toby Ord</label>
+    </customValue>
+    <customValue>
+        <fullName>External Investigator - Will MacAskill</fullName>
+        <default>false</default>
+        <label>External Investigator - Will MacAskill</label>
+    </customValue>
+    <customValue>
+        <fullName>Factor Philanthropy</fullName>
+        <default>false</default>
+        <label>Factor Philanthropy</label>
+    </customValue>
+    <customValue>
+        <fullName>GiveWell&apos;s Budget</fullName>
+        <default>false</default>
+        <label>GiveWell&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Health R&amp;D (Katharine)</fullName>
+        <default>false</default>
+        <label>Global Health R&amp;D (Katharine)</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Health R&amp;D (Ray)</fullName>
+        <default>false</default>
+        <label>Global Health R&amp;D (Ray)</label>
+    </customValue>
+    <customValue>
+        <fullName>Holden&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Holden&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Jacob&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Jacob&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>James&apos;s Budget</fullName>
+        <default>false</default>
+        <label>James&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Just Impact&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Just Impact&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Exposure Action Fund (LEAF)</fullName>
+        <default>false</default>
+        <label>Lead Exposure Action Fund (LEAF)</label>
+    </customValue>
+    <customValue>
+        <fullName>Luke&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Luke&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Luke&apos;s Government Placement Budget</fullName>
+        <default>false</default>
+        <label>Luke&apos;s Government Placement Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Luke&apos;s Hypermind Budget</fullName>
+        <default>false</default>
+        <label>Luke&apos;s Hypermind Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Luke&apos;s Tech Policy Fellowship Budget</fullName>
+        <default>false</default>
+        <label>Luke&apos;s Tech Policy Fellowship Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Otis Discretionary</fullName>
+        <default>false</default>
+        <label>Otis Discretionary</label>
+    </customValue>
+    <customValue>
+        <fullName>Rossa&apos;s Budget</fullName>
+        <default>false</default>
+        <label>Rossa&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Nick&apos;s Budget</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Nick&apos;s Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Morgan&apos;s Learning &amp; Eval Discretionary</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Morgan&apos;s Learning &amp; Eval Discretionary</label>
+    </customValue>
+    <customValue>
+        <fullName>Jacob&apos;s COVID-19 Budget</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Jacob&apos;s COVID-19 Budget</label>
+    </customValue>
+    <customValue>
+        <fullName>GHW Savings: Portfolio 1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GHW Savings: Portfolio 1</label>
+    </customValue>
+    <customValue>
+        <fullName>FAW Savings: Portfolio 2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FAW Savings: Portfolio 2</label>
+    </customValue>
+    <customValue>
+        <fullName>External Budget (Nicole, CJR)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>External Budget (Nicole, CJR)</label>
+    </customValue>
+    <customValue>
+        <fullName>EA Grant Allocators</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EA Grant Allocators</label>
+    </customValue>
+    <customValue>
+        <fullName>Daniel&apos;s Budget (AI)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Daniel&apos;s Budget (AI)</label>
+    </customValue>
+    <description>For cases where a grant should not be allocated to its focus area&apos;s budget, this provides the opportunity to override that default focus area budget.</description>
+    <masterLabel>Budget Override</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
