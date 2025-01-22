@@ -107,7 +107,7 @@ private class GranteeMapControllerTest {
 //        System.assertEquals('Farm Animal Welfare', focusAreasList[0]);
 //        System.assertEquals('Land Use Reform', focusAreasList[1]);
 
-        String focusAreasMapString = GranteeMapController.getFocusAreasMap();
+        String focusAreasMapString = GranteeMapController.getFocusAreasData();
         Map<String, Integer> focusAreasMap = (Map<String, Integer>) JSON.deserialize(focusAreasMapString, Map<String, Integer>.class);
         System.assertEquals(2, focusAreasMap.size());
 
@@ -119,7 +119,7 @@ private class GranteeMapControllerTest {
         System.assertEquals(1, investigatorsList.size());
         System.assertEquals('Testing1', investigatorsList[0]);
 
-        String investigatorsMapString = GranteeMapController.getInvestigatorMap();
+        String investigatorsMapString = GranteeMapController.getInvestigatorData();
         Map<String, Integer> investigatorsMap = (Map<String, Integer>) JSON.deserialize(investigatorsMapString, Map<String, Integer>.class);
         System.assertEquals(1, investigatorsMap.size());
 
@@ -131,7 +131,7 @@ private class GranteeMapControllerTest {
         System.assertEquals(1, grantYearsList.size());
         System.assertEquals('2024', String.valueOf(System.today().year()));
 
-        String grantYearsMapString = GranteeMapController.getGrantYearsMap();
+        String grantYearsMapString = GranteeMapController.getGrantYearsData();
         Map<String, Integer> grantYearsMap = (Map<String, Integer>) JSON.deserialize(grantYearsMapString, Map<String, Integer>.class);
         System.assertEquals(1, grantYearsMap.size());
 

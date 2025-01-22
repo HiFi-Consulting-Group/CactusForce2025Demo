@@ -15,7 +15,7 @@
 					height: 500px;
 				}
 			</style>
-			<apex:slds />
+			<apex:slds/>
 			<apex:form id="form">
 				<apex:actionFunction name="setFilteredGrantYears" action="{!setFilteredGrantYears}" reRender="form" status="myStatus">
 					<apex:param name="years" value="" />
@@ -55,7 +55,6 @@
 						</script>
 						<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 						<script>
-			
 							//Load google charts 
 							google.charts.load('current', {'packages':['geochart'],});
 							google.charts.setOnLoadCallback(drawRegionsMap);
@@ -72,9 +71,7 @@
 								countryEntry.push(parseInt('{!granteesByCountry[country]}'));
 								countryMap.push(countryEntry);
 							</apex:repeat> 
-							// countryMap = "{!granteesByCountry}";
-			
-			
+		
 							function drawRegionsMap() {
 								var data = google.visualization.arrayToDataTable(countryMap);
 								// var options = {format: 'currency',legend:{textStyle: {color: 'blue', fontSize: 16}}};
@@ -101,13 +98,8 @@
 							}
 						</script>
 					</div>
-					
-					
 				</body>
 			</apex:form>
-
-			
 		</head>
-		
 	</html>
 </apex:page>

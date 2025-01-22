@@ -35,7 +35,7 @@ public with sharing class GranteeMapController {
     }
 
     @AuraEnabled
-    public static string getFocusAreasMap(){
+    public static string getFocusAreasData(){
         try {
             List < AggregateResult > oppsByFocusArea = loadFocusAreas();
             Map < String, Integer > oppCountsByFocusArea = new Map < String, Integer >();
@@ -70,7 +70,7 @@ public with sharing class GranteeMapController {
     }
 
     @AuraEnabled
-    public static string getInvestigatorMap(){
+    public static string getInvestigatorData(){
         try {
             List < AggregateResult > oppsByInvestigator = loadInvestigators();
 
@@ -125,7 +125,7 @@ public with sharing class GranteeMapController {
     }
 
     @AuraEnabled
-    public static string getGrantYearsMap(){
+    public static string getGrantYearsData(){
         try {
             List < AggregateResult > oppsByYear = loadGrantYears();
             Map < String, Integer > oppCountsByYear = new Map < String, Integer >();

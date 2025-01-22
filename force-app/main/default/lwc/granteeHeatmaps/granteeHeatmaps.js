@@ -1,8 +1,8 @@
 import { LightningElement, track } from "lwc";
 import getVFDomain from "@salesforce/apex/GranteeMapController.getVFDomain";
-import getGrantYearsMap from "@salesforce/apex/GranteeMapController.getGrantYearsMap";
-import getFocusAreasMap from "@salesforce/apex/GranteeMapController.getFocusAreasMap";
-import getInvestigatorMap from "@salesforce/apex/GranteeMapController.getInvestigatorMap";
+import getGrantYearsData from "@salesforce/apex/GranteeMapController.getGrantYearsData";
+import getFocusAreasData from "@salesforce/apex/GranteeMapController.getFocusAreasData";
+import getInvestigatorData from "@salesforce/apex/GranteeMapController.getInvestigatorData";
 
 import getGlobalGranteeDetail from "@salesforce/apex/GranteeMapController.getGlobalGranteeDetail";
 import getUSGranteeDetail from "@salesforce/apex/GranteeMapController.getUSGranteeDetail";
@@ -64,7 +64,7 @@ export default class GranteeHeatmapFilters extends LightningElement {
 	}
 
 	async connectedCallback() {
-		let [vfDomain, grantYears, focusAreas, investigators] = await Promise.all([getVFDomain(),getGrantYearsMap(),getFocusAreasMap(),getInvestigatorMap()]);
+		let [vfDomain, grantYears, focusAreas, investigators] = await Promise.all([getVFDomain(),getGrantYearsData(),getFocusAreasData(),getInvestigatorData()]);
 
 		console.log('focusAreas',focusAreas);
 

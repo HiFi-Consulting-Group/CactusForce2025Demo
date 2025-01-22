@@ -20,9 +20,20 @@ for (Opportunity opp: allOpps) {
     // opp.Amount = Math.round(Math.random() * 100000 * 100) / 100;
     // opp.Name = opp.Account.name +' - $' + Integer.valueOf(opp.Amount) + ' - ' + opp.CloseDate.year();
     // opp.Grant_Investigator_User__c = allUsers[Math.mod(Math.abs(opp.Name.hashCode()), userListSize)].Id;
-    //generate a random date over the last 10 years
-    Date d = Date.newInstance(Date.today().year()-10, 1, 1).addDays((Math.random() * 365).intValue());
+    //generate a random date spread over the last 10 years, with a bias towards the last 2 years
+
+    Date today = Date.today();
+    Date threeYearsAgo = today.addYears(-3);
+    
+    // Generate a random number of days within the last 3 years
+    Integer totalDays = today.daysBetween(threeYearsAgo);
+    Integer randomDays = (Integer)(Math.random() * totalDays);
+    System.debug('randomDays: ' + randomDays);
+    
+    Date d = threeYearsAgo.addDays(randomDays*-1);
+
     opp.Rec_Submitted__c = d;
+    System.debug('year of date submitted: ' + d.year());
     // opp.StageName = 'Closed Won';
 }
 

@@ -38,43 +38,6 @@
                     </lightning-dual-listbox>
                 </div>
             </div>
-            <!-- <lightning-accordion
-                allow-multiple-sections-open
-                active-section-name={activeFilterSections}>
-                <lightning-accordion-section name="Years" label="Filter By Year">
-                    <lightning-dual-listbox name="Grant Years"
-                        label="Select Relevant Grant Years"
-                        source-label="Available"
-                        selected-label="Selected"
-                        field-level-help="Filter by Grant Years"
-                        value={selectedGrantYears}
-                        options={availableGrantYears}
-                        onchange={grantYearsChanged}>
-                    </lightning-dual-listbox>
-                </lightning-accordion-section>
-                <lightning-accordion-section name="Focus" label="Filter By Focus Area">
-                    <lightning-dual-listbox name="Focus Areas"
-                        label="Select Relevant Focus Areas"
-                        source-label="Available"
-                        selected-label="Selected"
-                        field-level-help="Filter by Focus Areas"
-                        options={availableFocusAreas}
-                        value={selectedFocusAreas}
-                        onchange={focusAreasChanged}>
-                    </lightning-dual-listbox>
-                </lightning-accordion-section>
-                <lightning-accordion-section name="Investigators" label="Filter By Investigator">
-                    <lightning-dual-listbox name="Investigators"
-                        label="Select Relevant Investigators"
-                        source-label="Available"
-                        selected-label="Selected"
-                        field-level-help="Filter by Investigators"
-                        options={availableInvestigators}
-                        value={selectedInvestigators}
-                        onchange={investigatorsChanged}>
-                    </lightning-dual-listbox>
-                </lightning-accordion-section>
-            </lightning-accordion> -->
         </lightning-accordion-section>
         <lightning-accordion-section name="GlobalMap" label="Global Grantee Map">
             <div lwc:if={isLoading} class="slds-is-relative">
